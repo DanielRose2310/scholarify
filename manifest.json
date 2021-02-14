@@ -1,0 +1,19 @@
+{
+    "name": "Scholarify",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Search multiple databses for research sources",
+    "permissions": [
+      "contextMenus"
+     ],
+    "background": { 
+        "matches": [
+            "<all_urls>"
+          ],
+      "scripts": ["script.js"]
+    },
+    "icons":{
+      "16": "logo.png",
+      "128": "logo-large.png"
+     }
+}
